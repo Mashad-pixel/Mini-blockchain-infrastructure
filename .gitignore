@@ -1,0 +1,86 @@
+# =============================================================================
+# SENSITIVE PROJECT FILES (NEVER COMMIT THESE)
+# =============================================================================
+# Wallet files containing private keys
+*.json
+!package.json
+!tsconfig.json
+
+# SQLite database files containing chain state and mempool
+*.db
+*.sqlite
+*.sqlite3
+
+# =============================================================================
+# PYTHON
+# =============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =============================================================================
+# IDE AND EDITORS
+# =============================================================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Vim / NeoVim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# =============================================================================
+# OPERATING SYSTEM
+# =============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============================================================================
+# LOGS AND TEMP FILES
+# =============================================================================
+*.log
+*.tmp
+*.temp
